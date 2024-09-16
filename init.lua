@@ -693,6 +693,7 @@ require('lazy').setup({
         lua = { 'stylua' },
         clangd = { 'clang-format' },
         css = { 'prettier' },
+        typescript = { 'prettier' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
