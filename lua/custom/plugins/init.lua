@@ -3,9 +3,9 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  {
-    'github/copilot.vim',
-  },
+  -- {
+  --   'github/copilot.vim',
+  -- },
   {
     'tpope/vim-fugitive',
   },
