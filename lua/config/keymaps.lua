@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>e", "<cmd>Oil --float .<cr>", { desc = "Oil" })
+vim.keymap.set("n", "<c-/>", "<cmd>ToggleTerm direction=float<cr>", { desc = "ToggleTerm" })
