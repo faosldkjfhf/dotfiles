@@ -4,6 +4,10 @@ return {
     opts = {},
   },
   {
+    "metalelf0/black-metal-theme-neovim",
+    lazy = false,
+  },
+  {
     "slugbyte/lackluster.nvim",
     lazy = false,
     priority = 1000,
@@ -23,7 +27,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "lackluster-hack",
+      colorscheme = "bathory",
     },
   },
 }

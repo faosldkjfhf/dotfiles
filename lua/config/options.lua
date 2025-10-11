@@ -5,3 +5,4 @@
 vim.opt.relativenumber = true
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
+vim.lsp.set_log_level(vim.log.levels.OFF)
