@@ -27,9 +27,10 @@ return {
       },
 
       sections = {
-        lualine_a = { "mode" },
-        lualine_b = { "branch" },
-        lualine_c = {
+        -- lualine_a = { "mode" },
+        -- lualine_b = { "branch" },
+        lualine_a = { "branch" },
+        lualine_b = {
           LazyVim.lualine.root_dir(),
           {
             "diagnostics",
@@ -43,6 +44,7 @@ return {
           { "filetype", icon_only = true, separator = "", padding = { left = 1, right = 0 } },
           { LazyVim.lualine.pretty_path() },
         },
+        lualine_c = { "mode" },
         lualine_x = {
           {
             "diff",

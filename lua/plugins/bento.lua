@@ -1,9 +1,9 @@
 return {
   "serhez/bento.nvim",
-  lazy = "VeryLazy",
+  lazy = false,
   opts = {
     ui = {
-      mode = "tabline",
+      mode = "floating",
     },
   },
 }
