@@ -16,11 +16,10 @@ return {
   opts = {},
   config = function()
     require("tabby.tabline").set(function(line)
-      local cwd = " " .. vim.fn.fnamemodify(vim.fn.getcwd(), ":t") .. " "
       return {
         {
           {
-            { cwd, hl = theme.head },
+            { "  ", hl = theme.head },
             line.sep("", theme.head, theme.fill),
           },
         },
