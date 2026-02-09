@@ -20,6 +20,6 @@ vim.filetype.add({
 })
 
 if vim.g.neovide then
-  vim.o.guifont = "VictorMono Nerd Font:h14"
+  vim.o.guifont = "VictorMono NFM:h14"
   vim.g.neovide_refresh_rate = 240
 end

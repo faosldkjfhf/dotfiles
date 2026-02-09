@@ -1,6 +1,6 @@
 return {
   {
-    "serhez/teide.nvim",
+    "ficd0/ashen.nvim",
     lazy = false,
     priority = 1000,
     opts = {},
@@ -8,7 +8,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "teide-darker",
+      colorscheme = "ashen",
     },
   },
 }
