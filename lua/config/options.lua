@@ -8,7 +8,7 @@ vim.opt.autoindent = true
 vim.opt.title = true
 vim.opt.titlestring = "%<%F %l:%L"
 vim.opt.showtabline = 2
-vim.lsp.set_log_level(vim.log.levels.OFF)
+vim.lsp.log.set_level("OFF")
 
 vim.filetype.add({
   extension = {
