@@ -15,8 +15,8 @@ return {
         auto_brackets = { enabled = false },
       },
       ghost_text = { enabled = false },
-      documentation = { auto_show = true, border = "rounded" },
+      documentation = { auto_show = true },
     },
-    signature = { enabled = true, border = "rounded" },
+    signature = { enabled = true },
   },
 }
